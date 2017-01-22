@@ -1,1 +1,1 @@
-web: gunicorn almocobot.wsgi
+web: gunicorn bot_project.wsgi
