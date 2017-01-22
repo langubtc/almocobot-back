@@ -7,14 +7,14 @@ class User(models.Model):
 	password = models.CharField(max_length=50)
 
 	def __str__(self):
-		return self.username
+		return self.userId
 
 class Place(models.Model):
 	placename = models.CharField(max_length=500)
 	address = models.CharField(max_length=500, blank=True)
 
-	def __unicode__(self):
-		return self.placename
+	def __int__(self):
+		return self.id
 
 class UserPlace(models.Model):
 	userId = models.ForeignKey(User)
