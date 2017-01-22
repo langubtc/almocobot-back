@@ -1,1 +1,1 @@
-web: gunicorn bot_project.wsgi
+web: gunicorn bot_project/wsgi.py
