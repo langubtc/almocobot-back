@@ -2,8 +2,5 @@ dj-database-url==0.4.2
 Django==1.8.5
 djangorestframework==3.5.3
 gunicorn==19.6.0
-<<<<<<< HEAD
 whitenoise==3.2.3
 psycopg2==2.6.2
-=======
->>>>>>> 7b4ab0f7cc55e1acb8a4bfffe121ef627f4b3aa1
